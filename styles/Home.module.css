@@ -1,10 +1,13 @@
+
 .container {
+  margin:0;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: lightgray;
 }
 
 .main {
@@ -19,24 +22,18 @@
 .footer {
   width: 100%;
   height: 100px;
+  margin:0;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: greenyellow;
 }
 
-.footer img {
-  margin-left: 0.5rem;
-}
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .title a {
-  color: #0070f3;
+  color: red;
   text-decoration: none;
 }
 
@@ -50,16 +47,6 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
 }
 
 .code {
@@ -86,9 +73,10 @@
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color:inherit;
+  background-color: grey;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 2px solid black;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -96,7 +84,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color:white;
   border-color: #0070f3;
 }
 
